@@ -46,7 +46,7 @@ function Time() {
           role="item"
           className="flex m-0 gap-3 mt-8 justify-between desktop:mt-5"
         >
-          <li className=" bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px]">
+          <li className=" bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px] desktop:w-[90px]">
             <span className="text-[40px] text-primary-blue font-bold desktop:text-[56px]">
               {days.toString().length === 1 ? "0" + days : days}
             </span>
@@ -54,7 +54,7 @@ function Time() {
               days
             </p>
           </li>
-          <li className="bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px]">
+          <li className="bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px] desktop:w-[90px]">
             <span className="text-[40px] text-primary-blue font-bold desktop:text-[56px]">
               {hours.toString().length === 1 ? "0" + hours : hours}
             </span>
@@ -62,7 +62,7 @@ function Time() {
               hours
             </p>
           </li>
-          <li className="bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px]">
+          <li className="bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px] desktop:w-[90px]">
             <span className="text-[40px] text-primary-blue font-bold desktop:text-[56px]">
               {minutes.toString().length === 1 ? "0" + minutes : minutes}
             </span>
@@ -70,7 +70,7 @@ function Time() {
               min
             </p>
           </li>
-          <li className="bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px]">
+          <li className="bg-primary-lightblue/20 flex flex-col justify-center items-center p-3 rounded-md w-[72px] desktop:w-[90px]">
             <span className="text-[40px] text-primary-blue font-bold desktop:text-[56px]">
               {seconds.toString().length === 1 ? "0" + seconds : seconds}
             </span>
