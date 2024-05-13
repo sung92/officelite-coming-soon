@@ -44,7 +44,7 @@ function useCountdown() {
   const context = useContext(CountdownContext);
   if (context === undefined)
     throw new Error(
-      "CountdownContext was used outside of the CountdownProvider"
+      "CountdownContext was used outside of the CountdownProvider",
     );
   return context;
 }

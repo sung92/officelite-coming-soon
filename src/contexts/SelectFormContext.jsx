@@ -50,7 +50,7 @@ function useSelectForm() {
   const context = useContext(SelectFormContext);
   if (context === undefined)
     throw new Error(
-      "SelectFormContext was used outside of the SelectFormProvider"
+      "SelectFormContext was used outside of the SelectFormProvider",
     );
   return context;
 }
